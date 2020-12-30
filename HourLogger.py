@@ -1,5 +1,9 @@
 #hour logger program
 
+import calendar
+
+myCalendar = calendar.Calendar(firstweekday=0) #monday is first day of week
+
 #Option 1: Add Time
 
 
