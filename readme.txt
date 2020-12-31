@@ -21,7 +21,13 @@ MAIN Program Setup
 
 Option 1: Add Time
 
-	First, ask user to input time (may include option to use current system time later)
+	First, ask user to input time (may include option to use current system time later). It's simpler to have the user enter hours and minutes separately for time conversion purposes.
+
+		The user inputs need to be typecasted to ints because the input method generates a string.
+
+		Need a method to check the hour and minute of each input to make sure they are in bounds
+
+	Second, take the user input and convert them to time objects
 
 Option 2: Remove Time
 
