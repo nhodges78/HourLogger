@@ -23,11 +23,15 @@ Option 1: Add Time
 
 	First, ask user to input time (may include option to use current system time later). It's simpler to have the user enter hours and minutes separately for time conversion purposes.
 
-		The user inputs need to be typecasted to ints because the input method generates a string.
+		The user inputs need to be typecasted to ints because the input method generates a string. These ints are then used as args in setup for time objects.
 
 		Need a method to check the hour and minute of each input to make sure they are in bounds
 
-	Second, take the user input and convert them to time objects
+	Second, take the user input and convert them to time objects for manipulation and math purposes.
+
+	Third, create method for calculating difference in time out and time in, and use it to make sure that the time entered is chronological and in the same day.
+
+		If not, prompt user to reenter time in and time out.
 
 Option 2: Remove Time
 
